@@ -14,5 +14,3 @@ read -p "Enter operator: " operator
 # echo "The sub is: $sub"
 # echo "The mul is: $mul"
 # echo "The div is: $div"
-
-echo "$($operand1 + $operand2)"
