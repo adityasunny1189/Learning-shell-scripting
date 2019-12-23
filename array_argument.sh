@@ -16,3 +16,13 @@ args=("$@")
 echo "argument at position 0 is: ${args[0]}"
 echo "argument at position 1 is: ${args[1]}"
 echo "argument at position 2 is: ${args[2]}"
+
+# to print all the array contents we can
+# also use $@
+
+echo $@
+
+# to print total no of argument we use
+# $#
+
+echo "Total no of arguments are: $#"
