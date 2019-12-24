@@ -18,9 +18,12 @@ then
 elif [ $op == "-" ]
 then
   echo "The sub is: $(( operand1 - operand2 ))"
+# elif [ $op == "*" ]
+# then
+#   echo "The mul is: $( expr $operand1 \* $operand2 )"
 elif [ $op == "*" ]
 then
-  echo "The mul is: $(expr $operand1 \* $operand2 ))"
+  echo "The mul is: $(( $operand1 * $operand2 ))"
 elif [ $op == "/" ]
 then
   echo "The div is: $(( operand1 / operand2 ))"
