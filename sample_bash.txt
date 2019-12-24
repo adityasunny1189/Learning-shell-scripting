@@ -1,0 +1,5 @@
+Notes:
+1.Read Nodejs
+
+2.Read shell scripting
+3.Read C++
